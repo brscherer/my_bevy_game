@@ -31,12 +31,11 @@ pub const SCOREBOARD_FONT_SIZE: f32 = 33.0;
 pub const SCOREBOARD_TEXT_PADDING: Val = Val::Px(5.0);
 
 // Colors
-pub const BACKGROUND_COLOR: Color = Color::srgb(0.9, 0.9, 0.9);
-pub const PADDLE_COLOR: Color = Color::srgb(0.3, 0.3, 0.7);
-pub const BALL_COLOR: Color = Color::srgb(1.0, 0.5, 0.5);
-pub const BRICK_COLOR: Color = Color::srgb(0.5, 0.5, 1.0);
-pub const WALL_COLOR: Color = Color::srgb(0.8, 0.8, 0.8);
-pub const TEXT_COLOR: Color = Color::srgb(0.5, 0.5, 1.0);
-pub const SCORE_COLOR: Color = Color::srgb(1.0, 0.5, 0.5);
-
+pub const BACKGROUND_COLOR: Color = Color::srgb(0.05, 0.05, 0.1); // Dark blue-black
+pub const PADDLE_COLOR: Color = Color::srgb(0.0, 0.8, 0.8); // Cyan
+pub const BALL_COLOR: Color = Color::srgb(1.0, 1.0, 0.3); // Yellow
+pub const BRICK_COLOR: Color = Color::srgb(0.9, 0.2, 0.2); // Red
+pub const WALL_COLOR: Color = Color::srgb(0.3, 0.3, 0.4); // Dark gray-blue
+pub const TEXT_COLOR: Color = Color::srgb(0.0, 0.9, 0.9); // Bright cyan
+pub const SCORE_COLOR: Color = Color::srgb(0.9, 0.9, 0.0); // Bright yellow
 
